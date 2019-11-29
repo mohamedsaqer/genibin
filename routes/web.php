@@ -19,12 +19,12 @@ Route::get('/dashboard', function () {
     return view('adminpanel.dashboard');
 });
 
-Route::get('/users', function () {
-    return view('adminpanel.users');
-});
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/bins', 'BinController@index');
+
+Route::get('/users', 'UserController@index');
+
+Route::get('/companies', 'CompanyController@index');

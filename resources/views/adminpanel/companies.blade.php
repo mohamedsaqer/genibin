@@ -9,26 +9,19 @@
                         <tr>
                             <th><i class="fa fa-bullhorn"></i> ID</th>
                             <th class="hidden-phone"><i class="fa fa-question-circle"></i> Name</th>
-                            <th><i class=" fa fa-edit"></i> Email</th>
-                            <th><i class=" fa fa-edit"></i> Age</th>
-                            <th><i class=" fa fa-edit"></i> Total Points</th>
-{{--                            <th><i class=" fa fa-edit"></i> Status</th>--}}
+                            <th><i class=" fa fa-edit"></i> Status</th>
                             <th>Action</th>
                         </tr>
                         </thead>
                         <tbody>
-                        @php $i = 0; @endphp
-                        @foreach($users as $user)
+                        @foreach($companies as $company)
                             <tr>
                                 <td>
-                                    <a href="">{{++$i}}</a>
+                                    <a href="">{{$company->id}}</a>
                                 </td>
-                                <td class="hidden-phone">{{$user->name}}</td>
-                                <td class="hidden-phone">{{$user->email}}</td>
-                                <td class="hidden-phone">{{$user->birth_date}}</td>
-                                <td class="hidden-phone">{{$user->total_points}}</td>
+                                <td class="hidden-phone">{{$company->name}}</td>
+                                <td><span class="label label-success label-mini">Active</span></td>
                                 <td>
-                                    <button class="btn btn-success btn-xs"><i class="fa fa-history"></i></button>
                                     <button class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></button>
                                     <button class="btn btn-danger btn-xs"><i class="fa fa-trash-o "></i></button>
                                 </td>
