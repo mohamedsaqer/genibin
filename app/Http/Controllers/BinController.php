@@ -9,7 +9,7 @@ class BinController extends Controller
 {
     public function index()
     {
-        $bins = Bin::get();
+        $bins = Bin::orderBy('status', 'desc')->get();
         return view('adminpanel.bins',compact('bins'));
     }
 
