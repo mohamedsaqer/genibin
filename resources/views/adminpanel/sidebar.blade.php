@@ -3,28 +3,28 @@
     <div id="sidebar" class="nav-collapse ">
         <!-- sidebar menu start-->
         <ul class="sidebar-menu" id="nav-accordion">
-            <p class="centered"><a href="profile.html"><img src="{{URL::asset('adminpanel/img/ui-sam.jpg')}}" class="img-circle" width="80"></a></p>
+            <p class="centered"><a href="{{url('/profile')}}"><img src="{{URL::asset('adminpanel/img/ui-sam.jpg')}}" class="img-circle" width="80"></a></p>
             <h5 class="centered">M-Saqer</h5>
             <li class="mt">
-                <a class="active" href="index.html">
+                <a class="active" href="{{url('/')}}">
                     <i class="fa fa-dashboard"></i>
                     <span>Dashboard</span>
                 </a>
             </li>
             <li class="mt">
-                <a href="#!">
+                <a href="{{url('/bins')}}">
                     <i class="fa fa-trash"></i>
                     <span>Bins</span>
                 </a>
             </li>
             <li class="mt">
-                <a href="#!">
+                <a href="{{url('/users')}}">
                     <i class="fa fa-user"></i>
                     <span>Users</span>
                 </a>
             </li>
             <li class="mt">
-                <a href="#!">
+                <a href="{{url('/companies')}}">
                     <i class="fa fa-creative-commons"></i>
                     <span>Companies</span>
                 </a>
