@@ -16,3 +16,12 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+
+// Login
+
+// all bins & Profile
+
+// History
+
+// scan bin if empty open it else redirect to the nearest one
