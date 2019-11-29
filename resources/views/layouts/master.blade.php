@@ -43,14 +43,14 @@
             <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
         </div>
         <!--logo start-->
-        <a href="index.html" class="logo"><b>DASH<span>IO</span></b></a>
+        <a href="{{url('/')}}" class="logo"><b>Geni<span>Bin</span></b></a>
         <!--logo end-->
         <div class="nav notify-row" id="top_menu">
             <!--  notification start -->
             <ul class="nav top-menu">
                 <!-- settings start -->
                 <li class="dropdown">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#!">
                         <i class="fa fa-tasks"></i>
                         <span class="badge bg-theme">4</span>
                     </a>
@@ -60,7 +60,7 @@
                             <p class="green">You have 4 pending tasks</p>
                         </li>
                         <li>
-                            <a href="index.html#">
+                            <a href="#!">
                                 <div class="task-info">
                                     <div class="desc">Dashio Admin Panel</div>
                                     <div class="percent">40%</div>
@@ -73,7 +73,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="index.html#">
+                            <a href="#!">
                                 <div class="task-info">
                                     <div class="desc">Database Update</div>
                                     <div class="percent">60%</div>
@@ -86,7 +86,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="index.html#">
+                            <a href="#!">
                                 <div class="task-info">
                                     <div class="desc">Product Development</div>
                                     <div class="percent">80%</div>
@@ -99,7 +99,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="index.html#">
+                            <a href="#!">
                                 <div class="task-info">
                                     <div class="desc">Payments Sent</div>
                                     <div class="percent">70%</div>
@@ -112,14 +112,14 @@
                             </a>
                         </li>
                         <li class="external">
-                            <a href="#">See All Tasks</a>
+                            <a href="#!">See All Tasks</a>
                         </li>
                     </ul>
                 </li>
                 <!-- settings end -->
                 <!-- inbox dropdown start-->
                 <li id="header_inbox_bar" class="dropdown">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#!">
                         <i class="fa fa-envelope-o"></i>
                         <span class="badge bg-theme">5</span>
                     </a>
@@ -129,7 +129,7 @@
                             <p class="green">You have 5 new messages</p>
                         </li>
                         <li>
-                            <a href="index.html#">
+                            <a href="#!">
                                 <span class="photo"><img alt="avatar" src="{{URL::asset('adminpanel/img/ui-zac.jpg')}}"></span>
                                 <span class="subject">
                   <span class="from">Zac Snider</span>
@@ -141,7 +141,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="index.html#">
+                            <a href="#!">
                                 <span class="photo"><img alt="avatar" src="{{URL::asset('adminpanel/img/ui-divya.jpg')}}"></span>
                                 <span class="subject">
                   <span class="from">Divya Manian</span>
@@ -153,7 +153,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="index.html#">
+                            <a href="#!">
                                 <span class="photo"><img alt="avatar" src="{{URL::asset('adminpanel/img/ui-danro.jpg')}}"></span>
                                 <span class="subject">
                   <span class="from">Dan Rogers</span>
@@ -165,7 +165,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="index.html#">
+                            <a href="#!">
                                 <span class="photo"><img alt="avatar" src="{{URL::asset('adminpanel/img/ui-sherman.jpg')}}"></span>
                                 <span class="subject">
                   <span class="from">Dj Sherman</span>
@@ -177,14 +177,14 @@
                             </a>
                         </li>
                         <li>
-                            <a href="index.html#">See all messages</a>
+                            <a href="#!">See all messages</a>
                         </li>
                     </ul>
                 </li>
                 <!-- inbox dropdown end -->
                 <!-- notification dropdown start-->
                 <li id="header_notification_bar" class="dropdown">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#!">
                         <i class="fa fa-bell-o"></i>
                         <span class="badge bg-warning">7</span>
                     </a>
@@ -194,35 +194,35 @@
                             <p class="yellow">You have 7 new notifications</p>
                         </li>
                         <li>
-                            <a href="index.html#">
+                            <a href="#!">
                                 <span class="label label-danger"><i class="fa fa-bolt"></i></span>
                                 Server Overloaded.
                                 <span class="small italic">4 mins.</span>
                             </a>
                         </li>
                         <li>
-                            <a href="index.html#">
+                            <a href="#!">
                                 <span class="label label-warning"><i class="fa fa-bell"></i></span>
                                 Memory #2 Not Responding.
                                 <span class="small italic">30 mins.</span>
                             </a>
                         </li>
                         <li>
-                            <a href="index.html#">
+                            <a href="#!">
                                 <span class="label label-danger"><i class="fa fa-bolt"></i></span>
                                 Disk Space Reached 85%.
                                 <span class="small italic">2 hrs.</span>
                             </a>
                         </li>
                         <li>
-                            <a href="index.html#">
+                            <a href="#!">
                                 <span class="label label-success"><i class="fa fa-plus"></i></span>
                                 New User Registered.
                                 <span class="small italic">3 hrs.</span>
                             </a>
                         </li>
                         <li>
-                            <a href="index.html#">See all notifications</a>
+                            <a href="#!">See all notifications</a>
                         </li>
                     </ul>
                 </li>
@@ -232,7 +232,7 @@
         </div>
         <div class="top-menu">
             <ul class="nav pull-right top-menu">
-                <li><a class="logout" href="login.html">Logout</a></li>
+                <li><a class="logout" href="#!">Logout</a></li>
             </ul>
         </div>
     </header>
@@ -273,26 +273,26 @@
 <!--script for this page-->
 <script src="{{URL::asset('adminpanel/lib/sparkline-chart.js')}}"></script>
 <script src="{{URL::asset('adminpanel/lib/zabuto_calendar.js')}}"></script>
-<script type="text/javascript">
-    $(document).ready(function() {
-        var unique_id = $.gritter.add({
-            // (string | mandatory) the heading of the notification
-            title: 'Welcome to Dashio!',
-            // (string | mandatory) the text inside the notification
-            text: 'Hover me to enable the Close Button. You can hide the left sidebar clicking on the button next to the logo.',
-            // (string | optional) the image to display on the left
-            image: "{{URL::asset('adminpanel/img/ui-sam.jpg')}}",
-            // (bool | optional) if you want it to fade out on its own or just sit there
-            sticky: false,
-            // (int | optional) the time you want it to be alive for before fading out
-            time: 8000,
-            // (string | optional) the class name you want to apply to that specific message
-            class_name: 'my-sticky-class'
-        });
+{{--<script type="text/javascript">--}}
+{{--    $(document).ready(function() {--}}
+{{--        var unique_id = $.gritter.add({--}}
+{{--            // (string | mandatory) the heading of the notification--}}
+{{--            title: 'Welcome to Dashio!',--}}
+{{--            // (string | mandatory) the text inside the notification--}}
+{{--            text: 'Hover me to enable the Close Button. You can hide the left sidebar clicking on the button next to the logo.',--}}
+{{--            // (string | optional) the image to display on the left--}}
+{{--            image: "{{URL::asset('adminpanel/img/ui-sam.jpg')}}",--}}
+{{--            // (bool | optional) if you want it to fade out on its own or just sit there--}}
+{{--            sticky: false,--}}
+{{--            // (int | optional) the time you want it to be alive for before fading out--}}
+{{--            time: 8000,--}}
+{{--            // (string | optional) the class name you want to apply to that specific message--}}
+{{--            class_name: 'my-sticky-class'--}}
+{{--        });--}}
 
-        return false;
-    });
-</script>
+{{--        return false;--}}
+{{--    });--}}
+{{--</script>--}}
 <script type="application/javascript">
     $(document).ready(function() {
         $("#date-popover").popover({

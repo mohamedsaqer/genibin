@@ -19,7 +19,7 @@ Route::get('/dashboard', function () {
     return view('adminpanel.dashboard');
 });
 
-Route::get('/dashboard', function () {
+Route::get('/users', function () {
     return view('adminpanel.users');
 });
 
