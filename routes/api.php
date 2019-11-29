@@ -25,6 +25,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 // History
 
 // scan bin if empty open it else redirect to the nearest one
+Route::get('check/{id}', 'BinController@check');
 
 // change bin status
 Route::get('change/{id}', 'BinController@change');

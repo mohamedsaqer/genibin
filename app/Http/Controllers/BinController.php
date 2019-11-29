@@ -28,4 +28,15 @@ class BinController extends Controller
         }
         return $bin->status;
     }
+
+    public function check($id)
+    {
+        $bin = Bin::find($id);
+        if($bin->status != 2){
+            return [true, 'msg' => 'Wish you happy day'];
+        }else{
+            $bin = Bin::where('status','!=',2)->first();
+            return [false,$bin, 'msg' => 'Full Bin'];
+        }
+    }
 }
