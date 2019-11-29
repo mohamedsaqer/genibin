@@ -15,6 +15,9 @@ class CreateCompaniesTable extends Migration
     {
         Schema::create('companies', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('name');
+            $table->string('logo');
+            $table->integer('status')->default(0)->comment('0:inActive, 1:active');
             $table->timestamps();
         });
     }
