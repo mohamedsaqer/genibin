@@ -18,10 +18,13 @@ class BinController extends Controller
         $bin = Bin::find($id);
         if($request->level < 40){
             $bin->status = 0;
+            $bin->save();
         }elseif ($request->level < 80){
             $bin->status = 1;
+            $bin->save();
         }else{
             $bin->status = 2;
+            $bin->save();
         }
         return $bin->status;
     }
