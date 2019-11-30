@@ -29,3 +29,6 @@ Route::get('check/{id}', 'BinController@check');
 
 // change bin status
 Route::get('change/{id}', 'BinController@change');
+
+// Add points
+Route::get('user/{id}', 'UserHistoryController@addPoints');
