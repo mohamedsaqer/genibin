@@ -39,4 +39,13 @@ class BinController extends Controller
             return [false,$bin, 'msg' => 'Full Bin'];
         }
     }
+
+    public function open ($id, Request $request)
+    {
+        $bin = Bin::find($id);
+        $bin->isOpen = $request->isOpen;
+        $bin->save();
+
+        return $bin->isOpen;
+    }
 }

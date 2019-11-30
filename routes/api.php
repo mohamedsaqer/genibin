@@ -32,3 +32,6 @@ Route::get('change/{id}', 'BinController@change');
 
 // Add points
 Route::get('user/{id}', 'UserHistoryController@addPoints');
+
+// Open Bin
+Route::get('bin/{id}', 'BinController@open');
