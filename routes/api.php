@@ -35,3 +35,6 @@ Route::get('user/{id}', 'UserHistoryController@addPoints');
 
 // Open Bin
 Route::get('openbin/{id}', 'BinController@open');
+
+// Check if Open
+Route::get('checkOpen/{id}', 'BinController@checkOpen');

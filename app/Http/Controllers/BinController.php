@@ -48,4 +48,11 @@ class BinController extends Controller
 
         return $bin->isOpen;
     }
+
+    public function checkOpen ($id)
+    {
+        $bin = Bin::find($id);
+
+        return $bin->isOpen;
+    }
 }
